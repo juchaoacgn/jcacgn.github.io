@@ -1,0 +1,18 @@
+/* CSS Document */
+    *{padding: 0; margin: 0; font-family: "Lato", sans-serif}
+    i{font-size: 14px}
+    body{background-image: url("../img/01.png");color: #E227E7}
+    div{font-size: 20px; text-align: center; padding-top: 15px;}
+    div span{display: inline-block; width: 50px; height: 50px;padding: 10px; border-radius: 5px}
+    p{font-size: 18px}
+    span.red{background: #ff0000}
+    span.yg{background: yellowgreen}
+    span.or{background: orange}
+    span.pi{background: palevioletred}
+    span.pk{background: #00a0e9}
+    span.mk{background: #1FADC5}
+    span p:first-child{font-size: 25px}
+    span p:last-child{font-size: 14px}
+	.a{
+		text-decoration: none;
+	}

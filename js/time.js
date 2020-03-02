@@ -5,7 +5,7 @@
      * 除了day拥有Zero外 hour,minute,second,msec都有Zero 即小于10的，都会在前面补0
      */
     window.onload=function(){
-        xcsoft.countdown('2020-03-031',function (time) {
+        xcsoft.countdown('2020-04-31',function (time) {
             //time.days=总天数
             document.getElementById("y1").innerHTML=time.year
             document.getElementById("d1").innerHTML=time.day
@@ -16,7 +16,7 @@
         },function (time) {
             //倒计时结束后的操作
         })
-        xcsoft.countup('2018-11-11',function (time) {
+        xcsoft.countup('2020-04-11',function (time) {
             document.getElementById("y2").innerHTML=time.year
             document.getElementById("d2").innerHTML=time.day
             document.getElementById("h2").innerHTML=time.hourZero
